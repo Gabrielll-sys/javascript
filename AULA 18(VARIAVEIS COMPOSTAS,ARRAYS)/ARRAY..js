@@ -1,6 +1,6 @@
 let numero = [5,2,9,152,20,[2659999,28]]
-
-for(let i in numero){
-    numero.sort()
+console.log(numero[0])
+for(var i in numero){
+   
     console.log(numero[i])
 }
