@@ -1,6 +1,6 @@
-let numero = [5,2,9,152,20,[2659999,28]]
+let numero = [5,2,9,152,20,2659999,28]
 console.log(numero[0])
-for(var i in numero){
-   
-    console.log(numero[i])
+numero.indexOf(26599999)
+for(let i in numero){
+console.log(numero[i])
 }
