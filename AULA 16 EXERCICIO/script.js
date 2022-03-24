@@ -17,7 +17,7 @@
     
         for(var cont = i; cont<=f;cont+=p);
         {
-       window.alert(`${cont}`)
+       msg.innerHTML+=cont
         }
 
     }
